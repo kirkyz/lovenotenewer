@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "lovenotenewer",
+  "version": "1.0.0",
+  "name": "Lovenote Newer",
+  "description": "A newer version of the Lovenote mod",
+  "authors": [
+    "Your Name"
+  ],
+  "contact": {
+    "homepage": "https://github.com/kirkyz/lovenotenewer",
+    "sources": "https://github.com/kirkyz/lovenotenewer"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.lovenote.LovenoteClient"
+    ]
+  },
+  "mixins": [
+    "lovenote.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "fabric-api": ">=0.102.1+1.21.1"
+  }
+}
